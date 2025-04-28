@@ -29,4 +29,4 @@ Antes de empezar, asegúrate de tener instalados los siguientes programas:
 1. **Clona este repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/frcampero/GigaStore-Ecommerce.git
