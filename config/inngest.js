@@ -78,6 +78,7 @@ export const createUserOrder = inngest.createFunction(
   async ({events}) => {
 
     const orders = events.map((event)=> {
+      console.log('Received order event:', event);  // Agrega esto para ver el valor de 'date'
       return {
         userId: event.data.userId,
         items: event.data.items,
